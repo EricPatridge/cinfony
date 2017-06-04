@@ -34,8 +34,8 @@ import rdkit.Chem.AtomPairs.Torsions
 # PIL and Tkinter
 try:
     import Tkinter as tk
-    import Image as PIL
-    import ImageTk as PILtk
+    from PIL import Image as PIL
+    from PIL import ImageTk as PILtk
 except:
     PILtk = None
 
